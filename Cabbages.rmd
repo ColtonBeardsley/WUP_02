@@ -24,9 +24,7 @@ veggy <- cabbages
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
-```{r}
-plot(Cult~VitC,data=veggy)
-```
+
 
 # Results
 
@@ -75,3 +73,11 @@ The p-value is .00000003405, which clearly shows that C39 and C52 are very diffe
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+I started this by using ChatGPT to help me create R code for a boxplot. I then had ChatGPT make color the outlier red, make it a notched boxplot, and center the title.
+
+Once I was finished with that and was able to see the data, it showed that C52 had a higher level of Vitamin C. This clearly indicated a significant difference between the two disjointed factors.
+
+The next step was to run a t.test. Doing this showed that the p-value was .00000003405, which proves that C39 and C52 are very different from each other.
+
+
